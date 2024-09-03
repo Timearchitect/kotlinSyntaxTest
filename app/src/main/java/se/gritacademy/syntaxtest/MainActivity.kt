@@ -54,10 +54,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }  )
 
-
-
-
-
         //tv= findViewById(R.id.text)
         tv = findViewById<TextView>(R.id.text)
         x = findViewById<TextView>(R.id.text)
@@ -155,11 +151,11 @@ class MainActivity : AppCompatActivity() {
 
         Log.i("alrik", "is Human an AI?: "+(h is AI).toString())
 
-        "SKIBIDI BAPP".addMore().log()
+        "SKIBIDI BAPP".addMore().log() //extra funktioner i Klass
 
 
         Log.i("alrik", "onCreate: "+s!!.length)
-        `Void int Int`()
+        `Void int Int`() //custom funktionsnamn
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -169,7 +165,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun `Void int Int` (){
+    fun `Void int Int` (){ //custom funktionsnamn
         Log.i("alrik", "YO det funkar med custom name")
     }
 
